@@ -22,7 +22,7 @@ apksign {
 }
 
 android {
-    namespace = "me.bmax.apatch"
+    namespace = "com.qihoo.browser"
 
     buildTypes {
         debug {
