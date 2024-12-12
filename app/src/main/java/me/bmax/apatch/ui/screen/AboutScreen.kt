@@ -40,7 +40,7 @@ import com.ramcosta.composedestinations.annotation.Destination
 import com.ramcosta.composedestinations.annotation.RootGraph
 import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 import me.bmax.apatch.BuildConfig
-import me.bmax.apatch.R
+import me.hidd.enatch.R
 import me.bmax.apatch.util.Version
 
 @Destination<RootGraph>

@@ -19,7 +19,7 @@ import com.ramcosta.composedestinations.generated.destinations.KPModuleScreenDes
 import com.ramcosta.composedestinations.generated.destinations.SettingScreenDestination
 import com.ramcosta.composedestinations.generated.destinations.SuperUserScreenDestination
 import com.ramcosta.composedestinations.spec.DirectionDestinationSpec
-import me.bmax.apatch.R
+import me.hidd.enatch.R
 
 enum class BottomBarDestination(
     val direction: DirectionDestinationSpec,
