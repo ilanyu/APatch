@@ -6,7 +6,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Runnable
 import kotlinx.coroutines.withContext
 import me.bmax.apatch.BuildConfig.APPLICATION_ID
-import me.bmax.apatch.R
+import me.hidd.enatch.R
 import me.bmax.apatch.util.apksign.JarMap
 import me.bmax.apatch.util.apksign.SignApk
 import me.bmax.apatch.util.rootShellForResult

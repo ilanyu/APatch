@@ -24,7 +24,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import me.bmax.apatch.APApplication
 import me.bmax.apatch.BuildConfig
-import me.bmax.apatch.R
+import me.hidd.enatch.R
 import me.bmax.apatch.apApp
 import me.bmax.apatch.util.Version
 import me.bmax.apatch.util.copyAndClose
