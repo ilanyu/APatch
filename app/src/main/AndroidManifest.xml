@@ -14,7 +14,7 @@
         tools:ignore="QueryAllPackagesPermission" />
 
     <application
-        android:name=".APApplication"
+        android:name="me.bmax.apatch.APApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:enableOnBackInvokedCallback="true"
@@ -29,7 +29,7 @@
         tools:targetApi="34">
 
         <activity
-            android:name=".ui.MainActivity"
+            android:name="me.bmax.apatch.ui.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.Splash">
             <intent-filter>
@@ -39,14 +39,14 @@
         </activity>
 
         <activity
-            android:name=".ui.WebUIActivity"
+            android:name="me.bmax.apatch.ui.WebUIActivity"
             android:autoRemoveFromRecents="true"
             android:documentLaunchMode="intoExisting"
             android:exported="false"
             android:theme="@style/Theme.APatch.WebUI" />
 
         <activity
-            android:name=".ui.CrashHandleActivity"
+            android:name="me.bmax.apatch.ui.CrashHandleActivity"
             android:exported="false" />
 
         <provider
