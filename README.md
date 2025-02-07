@@ -21,7 +21,7 @@ The patching of Android kernel and Android system.
 
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
      alt="Get it on F-Droid"
-     height="80">](https://f-droid.org/packages/me.bmax.apatch/)
+     height="80">](https://f-droid.org/packages/me.hidden.hidden/)
 
 Or download the latest APK from the [Releases Section](https://github.com/bmax121/APatch/releases/latest).
 

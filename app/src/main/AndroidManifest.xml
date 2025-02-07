@@ -14,7 +14,7 @@
         tools:ignore="QueryAllPackagesPermission" />
 
     <application
-        android:name=".APApplication"
+        android:name=".MyApp"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:enableOnBackInvokedCallback="true"
