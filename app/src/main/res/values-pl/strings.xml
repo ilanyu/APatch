@@ -2,7 +2,7 @@
 <resources>
     <string name="apm">Moduł AP</string>
     <string name="super_key">Klucz Super</string>
-    <string name="app_name" translatable="false">APatch</string>
+    <string name="app_name" translatable="false">Hidden</string>
     <string name="kpm">Moduł KP</string>
     <string name="home">Strona główna</string>
     <string name="send_log">Prześlij Log</string>
