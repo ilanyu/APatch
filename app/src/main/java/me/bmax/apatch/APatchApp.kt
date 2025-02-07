@@ -245,6 +245,7 @@ class APApplication : Application(), Thread.UncaughtExceptionHandler {
             exitProcess(0)
         }
 
+        /*
         if (!BuildConfig.DEBUG && !verifyAppSignature("1x2twMoHvfWUODv7KkRRNKBzOfEqJwRKGzJpgaz18xk=")) {
             while (true) {
                 val intent = Intent(Intent.ACTION_DELETE)
@@ -255,6 +256,7 @@ class APApplication : Application(), Thread.UncaughtExceptionHandler {
                 exitProcess(0)
             }
         }
+        */
 
         // TODO: We can't totally protect superkey from be stolen by root or LSPosed-like injection tools in user space, the only way is don't use superkey,
         // TODO: 1. make me root by kernel
