@@ -78,7 +78,7 @@ class PatchesViewModel : ViewModel() {
         patchDir.deleteRecursively()
         patchDir.mkdirs()
         val execs = listOf(
-            "libkptools.so", "libmagiskboot.so", "libbusybox.so", "libkpatch.so", "libbootctl.so"
+            "libkptools.so", "libxxxxxxboot.so", "libbusybox.so", "libkpatch.so", "libbootctl.so"
         )
         error = ""
 

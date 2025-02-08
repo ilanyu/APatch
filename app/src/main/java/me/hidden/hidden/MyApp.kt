@@ -132,13 +132,13 @@ class MyApp : Application(), Thread.UncaughtExceptionHandler {
                 "ln -s $APD_PATH $APD_LINK_PATH",
                 "restorecon $APD_PATH",
 
-                "cp -f ${nativeDir}/libmagiskpolicy.so $MAGISKPOLICY_BIN_PATH",
+                "cp -f ${nativeDir}/libxxxxxxpolicy.so $MAGISKPOLICY_BIN_PATH",
                 "chmod +x $MAGISKPOLICY_BIN_PATH",
                 "cp -f ${nativeDir}/libresetprop.so $RESETPROP_BIN_PATH",
                 "chmod +x $RESETPROP_BIN_PATH",
                 "cp -f ${nativeDir}/libbusybox.so $BUSYBOX_BIN_PATH",
                 "chmod +x $BUSYBOX_BIN_PATH",
-                "cp -f ${nativeDir}/libmagiskboot.so $MAGISKBOOT_BIN_PATH",
+                "cp -f ${nativeDir}/libxxxxxxboot.so $MAGISKBOOT_BIN_PATH",
                 "chmod +x $MAGISKBOOT_BIN_PATH",
 
 
@@ -148,7 +148,7 @@ class MyApp : Application(), Thread.UncaughtExceptionHandler {
                 "echo ${Version.getManagerVersion().second} > $APATCH_VERSION_PATH",
                 "restorecon -R $APATCH_FOLDER",
 
-                "${nativeDir}/libmagiskpolicy.so --magisk --live",
+                "${nativeDir}/libxxxxxxpolicy.so --magisk --live",
             )
 
             val shell = getRootShell()
