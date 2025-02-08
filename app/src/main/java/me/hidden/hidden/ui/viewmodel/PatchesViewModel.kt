@@ -88,7 +88,10 @@ class PatchesViewModel : ViewModel() {
         } ?: emptyArray()
 
         for (lib in libs) {
-            val name = lib.name.substring(3, lib.name.length - 3)
+            var name = lib.name.substring(3, lib.name.length - 3)
+            if (name == "xxxxxxboot") {
+                name = "magiskboot"
+            }
             Os.symlink(lib.path, "$patchDir/$name")
         }
 
